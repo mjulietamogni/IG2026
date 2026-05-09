@@ -1,0 +1,118 @@
+/* BODY */
+body {
+    font-family:'Times New Roman', Times, serif;
+    color: #f5f5f5;
+}
+header {
+ color: rgb(7, 7, 6);
+  background-color: blueviolet;
+  text-align: center;
+ 
+}
+
+#tituloprincipal {
+ color: rgb(245, 245, 3); 
+  background-color: blueviolet;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: unset;
+ 
+}
+
+.parrafo {
+  color: black;
+  text-align: justify;
+  font-size: 15px; 
+
+}
+
+.imagen { 
+    width: auto;
+    height: auto;
+
+   justify-content: center;
+}
+
+.contenedor  { 
+  display: flex;
+ justify-content: center;
+}
+
+.imagen2 { 
+    width: 700px;
+    height: 400px;
+   justify-content: center;
+}
+
+
+.contenedor2  { 
+  text-align: center;
+}
+
+.imagen3 { 
+    width: 700px;
+    height: 400px;
+   justify-content: center;
+}
+
+
+.contenedor3  { 
+  text-align: center;
+}
+
+nav h2 {
+   color: rgb(20, 20, 20);
+   text-align: center;
+   text-decoration: none;
+   font-size: 20px;
+     
+}   
+nav ul {
+   text-align: center;
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+}
+
+nav a {
+   text-align: center;
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+}
+
+#listaol {
+   text-align: center;
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+
+}
+
+#texto {
+   text-align: center;
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+   max-width: 900px;
+   padding: 30px;
+   margin: -30px auto 20px; /*marca la distancia entre el titulo y el primer texto*/
+   text-align: justify;
+}
+
+section p{
+   text-align: center;
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+   max-width: 900px; /* esto es para que el texto no ocupe
+   toda la linea*/
+   margin: -30px auto 20px;
+   padding: 30px; /*esto hace que no se superpongan los textos*/
+   text-align: justify; 
+}
+
+
+
+
