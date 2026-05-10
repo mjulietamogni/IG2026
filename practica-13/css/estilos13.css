@@ -64,8 +64,7 @@ h2 {
 } 
 /*Video*/
 iframe {
-    width: 40rem;
-    height: 30rem;
+    max-width: 100%;
     display: block;
     margin: auto;
 
@@ -74,10 +73,10 @@ iframe {
 section p {
     font-size: 1.2rem;
     text-align: justify;
-    padding-top: 1rem;
-    margin-right: 25rem;
-    margin-bottom: 1rem;
-    margin-left: 25rem;
+    padding: 1rem;
+    margin: auto;
+    max-width: 50rem;
+    
 }
 
 /*Menú de navegación*/
@@ -112,7 +111,11 @@ a:active {
     color: #be4dbe;
 }
 
+#contenedor  {
+    max-width: 100%;
+}
 
+    
 /*Pie de página*/
 footer {
     text-align: center;
