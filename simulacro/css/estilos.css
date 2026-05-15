@@ -1,67 +1,34 @@
 body {
+    background-image: url('../img/fondo.png');
 
-    font-family: 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
 }
 
 header {
     font-size: 1rem;
     text-align: center;
+    background-color: antiquewhite;
+
 
 }
-
-/*Títulos*/
-
-#subtitulo {
-    text-align: center;
-    font-size: 1.2rem;
-   
-}
- 
 
 h2 {
     font-size: 1.2rem;
     text-align: center;
-    margin-bottom: 1rem;    
+    background-color: antiquewhite;    
+
 }
 
-
-/*Imágenes*/
-
-.imagen1 {
-
-    display: block;
-    margin-top: 2rem;
-    margin-right: auto;
-    margin-bottom: 2rem;
-    margin-left: auto;
-    height: auto;
-    width: 50%;
-    border: 0.4rem solid #03745d;
-    
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: antiquewhite;    
 }
 
-/*agrupo las imágenes para aplicarles los mismos valores a todas*/
-.imagen2, .imagen3, .imagen4, .imagen5, .imagen6, .imagen7, .imagen8, .imagen9  {
+.nombre {
+    font-size: 1rem;
+    font-weight: 600;
+}
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-    height: auto;
-    width: 35%;
-    
-}    
-
-.imagen10  {
-    display: block;
-    margin-top: 5rem;
-    margin-right: auto;
-    margin-bottom: 5rem;
-    margin-left: auto;
-    height: auto;
-    width: 35%;
-} 
 /*Video*/
 iframe {
     max-width: 100%;
@@ -70,13 +37,64 @@ iframe {
 
 }
 
+/*Imágenes*/
+.imagen1 {
+
+    display: block;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    height: auto;
+    width: 80%;
+    border: 0.4rem solid #000000;;
+        
+}
+
+.imagen2 {
+
+    display: flex;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    height: auto;
+    width: 50%;
+    border: 0.4rem solid #000000;;
+        
+}
+
+
+.imagenes {
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+
+        
+}
+
+
+    
 section p {
     font-size: 1.2rem;
     text-align: justify;
     padding: 1rem;
     margin: auto;
-    max-width: 50rem;
+    max-width: 60rem;
+    background-color: antiquewhite;
     
+}
+
+article ul {
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: antiquewhite;
+    list-style-type: none;
+    max-width: 60rem;
+    padding: 1rem;
+    margin: auto;
+      
 }
 
 /*Menú de navegación*/
@@ -92,6 +110,7 @@ nav ul {
     justify-content: center; 
     list-style-type: none;
     gap: 20px; /*espacio estre los titulos de los links*/
+    background-color: antiquewhite;
   
 }
 
@@ -116,10 +135,9 @@ a:active {
 }
 
     
-
 /*Pie de página*/
 footer {
     text-align: center;
     padding: 20px;
+    background-color: antiquewhite;
 }  
-
