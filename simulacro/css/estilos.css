@@ -65,7 +65,7 @@ iframe {
 }
 
 
-.imagenes {
+.imagenes { /*acomoda el contenido del div, para ordenar las imágenes*/
 
     display: flex;
     justify-content: center;
@@ -74,6 +74,10 @@ iframe {
         
 }
 
+.imagenes img {
+    width: auto;
+    height: 5%;
+}
 
     
 section p {
